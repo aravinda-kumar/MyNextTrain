@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ArrayOfObjTrainMovements" targetNamespace="http://api.irishrail.ie/realtime/" xmlns:mstns="http://api.irishrail.ie/realtime/" xmlns="http://api.irishrail.ie/realtime/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ArrayOfObjTrainMovements" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="objTrainMovements">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TrainCode" type="xs:string" minOccurs="0" />
+              <xs:element name="TrainDate" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationCode" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationFullName" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationOrder" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationType" type="xs:string" minOccurs="0" />
+              <xs:element name="TrainOrigin" type="xs:string" minOccurs="0" />
+              <xs:element name="TrainDestination" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledArrival" type="xs:string" minOccurs="0" />
+              <xs:element name="ScheduledDeparture" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpectedArrival" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpectedDeparture" type="xs:string" minOccurs="0" />
+              <xs:element name="Arrival" type="xs:string" minOccurs="0" />
+              <xs:element name="Departure" type="xs:string" minOccurs="0" />
+              <xs:element name="AutoArrival" type="xs:string" minOccurs="0" />
+              <xs:element name="AutoDepart" type="xs:string" minOccurs="0" />
+              <xs:element name="StopType" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

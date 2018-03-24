@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObjStationFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
+  <objStationFilter>
+    <StationDesc_sp>Bray</StationDesc_sp>
+    <StationDesc>Bray</StationDesc>
+    <StationCode>BRAY </StationCode>
+  </objStationFilter>
+  <objStationFilter>
+    <StationDesc_sp>Broombridge</StationDesc_sp>
+    <StationDesc>Broombridge</StationDesc>
+    <StationCode>BBRDG</StationCode>
+  </objStationFilter>
+  <objStationFilter>
+    <StationDesc_sp>Leixlip&amp;nbsp;(Louisa&amp;nbsp;Bridge)</StationDesc_sp>
+    <StationDesc>Leixlip (Louisa Bridge)</StationDesc>
+    <StationCode>LXLSA</StationCode>
+  </objStationFilter>
+</ArrayOfObjStationFilter>

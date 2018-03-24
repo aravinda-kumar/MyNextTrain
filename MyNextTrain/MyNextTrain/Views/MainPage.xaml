@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNextTrain.Views.MainPage"
+             xmlns:converters="clr-namespace:MyNextTrain.Converters;assembly=MyNextTrain"
+             Title="{Binding Title}">
+    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="10">
+            <Label Text="Please select a station" />
+            <Picker ItemsSource="{Binding Stations}" ItemDisplayBinding="{Binding StationDesc}" SelectedItem="{Binding SelectedStation}" IsEnabled="{Binding Processing, Converter={converters:NegatedBoolConverter}}"/>
+            <Label Text="Now select a direction" Margin="0,10,0,0" />
+            <Picker ItemsSource="{Binding Directions}" SelectedIndex="{Binding Direction, Converter={converters:IntEnumConverter}}" IsEnabled="{Binding Processing, Converter={converters:NegatedBoolConverter}}"/>
+
+            <Button  VerticalOptions="End" HorizontalOptions="Fill" IsEnabled="{Binding Processing, Converter={converters:NegatedBoolConverter}}"
+                 Command="{Binding FindTrainCommand}"
+                 BackgroundColor="Green" TextColor="White" Text="Find my next train!"></Button>
+        </StackLayout>
+        <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="#66eeeeee" IsVisible="{Binding Processing}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+            <ActivityIndicator Color="ForestGreen"  IsRunning="{Binding Processing}"  VerticalOptions="Center" ></ActivityIndicator>
+        </StackLayout>
+    </Grid>
+    
+
+</ContentPage>

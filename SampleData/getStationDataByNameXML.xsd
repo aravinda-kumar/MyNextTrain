@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ArrayOfObjStationData" targetNamespace="http://api.irishrail.ie/realtime/" xmlns:mstns="http://api.irishrail.ie/realtime/" xmlns="http://api.irishrail.ie/realtime/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ArrayOfObjStationData" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="objStationData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Servertime" type="xs:string" minOccurs="0" />
+              <xs:element name="Traincode" type="xs:string" minOccurs="0" />
+              <xs:element name="Stationfullname" type="xs:string" minOccurs="0" />
+              <xs:element name="Stationcode" type="xs:string" minOccurs="0" />
+              <xs:element name="Querytime" type="xs:string" minOccurs="0" />
+              <xs:element name="Traindate" type="xs:string" minOccurs="0" />
+              <xs:element name="Origin" type="xs:string" minOccurs="0" />
+              <xs:element name="Destination" type="xs:string" minOccurs="0" />
+              <xs:element name="Origintime" type="xs:string" minOccurs="0" />
+              <xs:element name="Destinationtime" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="Lastlocation" type="xs:string" minOccurs="0" />
+              <xs:element name="Duein" type="xs:string" minOccurs="0" />
+              <xs:element name="Late" type="xs:string" minOccurs="0" />
+              <xs:element name="Exparrival" type="xs:string" minOccurs="0" />
+              <xs:element name="Expdepart" type="xs:string" minOccurs="0" />
+              <xs:element name="Scharrival" type="xs:string" minOccurs="0" />
+              <xs:element name="Schdepart" type="xs:string" minOccurs="0" />
+              <xs:element name="Direction" type="xs:string" minOccurs="0" />
+              <xs:element name="Traintype" type="xs:string" minOccurs="0" />
+              <xs:element name="Locationtype" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

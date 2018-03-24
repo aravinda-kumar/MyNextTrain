@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
+  <objStationData>
+    <Servertime>2018-03-24T09:23:39.807</Servertime>
+    <Traincode>E905 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>09:23:39</Querytime>
+    <Traindate>24 Mar 2018</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>08:25</Origintime>
+    <Destinationtime>09:35</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Kilbarrack</Lastlocation>
+    <Duein>4</Duein>
+    <Late>-2</Late>
+    <Exparrival>09:26</Exparrival>
+    <Expdepart>09:27</Expdepart>
+    <Scharrival>09:28</Scharrival>
+    <Schdepart>09:29</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-24T09:23:39.807</Servertime>
+    <Traincode>E906 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>09:23:39</Querytime>
+    <Traindate>24 Mar 2018</Traindate>
+    <Origin>Greystones</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>08:30</Origintime>
+    <Destinationtime>09:48</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Dublin Connolly</Lastlocation>
+    <Duein>17</Duein>
+    <Late>0</Late>
+    <Exparrival>09:40</Exparrival>
+    <Expdepart>09:40</Expdepart>
+    <Scharrival>09:40</Scharrival>
+    <Schdepart>09:40</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-24T09:23:39.807</Servertime>
+    <Traincode>E907 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>09:23:39</Querytime>
+    <Traindate>24 Mar 2018</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>08:55</Origintime>
+    <Destinationtime>10:05</Destinationtime>
+    <Status>En Route</Status>
+    <Lastlocation>Arrived Booterstown</Lastlocation>
+    <Duein>35</Duein>
+    <Late>0</Late>
+    <Exparrival>09:58</Exparrival>
+    <Expdepart>09:58</Expdepart>
+    <Scharrival>09:58</Scharrival>
+    <Schdepart>09:58</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-24T09:23:39.807</Servertime>
+    <Traincode>E908 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>09:23:39</Querytime>
+    <Traindate>24 Mar 2018</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>09:25</Origintime>
+    <Destinationtime>10:33</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>64</Duein>
+    <Late>0</Late>
+    <Exparrival>10:26</Exparrival>
+    <Expdepart>10:27</Expdepart>
+    <Scharrival>10:26</Scharrival>
+    <Schdepart>10:27</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-24T09:23:39.807</Servertime>
+    <Traincode>E944 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>09:23:39</Querytime>
+    <Traindate>24 Mar 2018</Traindate>
+    <Origin>Greystones</Origin>
+    <Destination>Howth</Destination>
+    <Origintime>09:30</Origintime>
+    <Destinationtime>10:47</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>77</Duein>
+    <Late>0</Late>
+    <Exparrival>10:40</Exparrival>
+    <Expdepart>10:40</Expdepart>
+    <Scharrival>10:40</Scharrival>
+    <Schdepart>10:40</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-24T09:23:39.807</Servertime>
+    <Traincode>E208 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>09:23:39</Querytime>
+    <Traindate>24 Mar 2018</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>09:50</Origintime>
+    <Destinationtime>10:58</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>32</Duein>
+    <Late>0</Late>
+    <Exparrival>09:55</Exparrival>
+    <Expdepart>09:55</Expdepart>
+    <Scharrival>09:55</Scharrival>
+    <Schdepart>09:55</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-24T09:23:39.807</Servertime>
+    <Traincode>E108 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>09:23:39</Querytime>
+    <Traindate>24 Mar 2018</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Greystones</Destination>
+    <Origintime>10:00</Origintime>
+    <Destinationtime>11:20</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>42</Duein>
+    <Late>0</Late>
+    <Exparrival>10:05</Exparrival>
+    <Expdepart>10:05</Expdepart>
+    <Scharrival>10:05</Scharrival>
+    <Schdepart>10:05</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-24T09:23:39.807</Servertime>
+    <Traincode>E209 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>09:23:39</Querytime>
+    <Traindate>24 Mar 2018</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>10:18</Origintime>
+    <Destinationtime>11:27</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>60</Duein>
+    <Late>0</Late>
+    <Exparrival>10:23</Exparrival>
+    <Expdepart>10:23</Expdepart>
+    <Scharrival>10:23</Scharrival>
+    <Schdepart>10:23</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-24T09:23:39.807</Servertime>
+    <Traincode>E210 </Traincode>
+    <Stationfullname>Bayside</Stationfullname>
+    <Stationcode>BYSDE</Stationcode>
+    <Querytime>09:23:39</Querytime>
+    <Traindate>24 Mar 2018</Traindate>
+    <Origin>Howth</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>10:45</Origintime>
+    <Destinationtime>11:54</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>87</Duein>
+    <Late>0</Late>
+    <Exparrival>10:50</Exparrival>
+    <Expdepart>10:50</Expdepart>
+    <Scharrival>10:50</Scharrival>
+    <Schdepart>10:50</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+</ArrayOfObjStationData>
