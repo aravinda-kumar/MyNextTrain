@@ -21,6 +21,11 @@ namespace IrishRailApi
             return await GetAsync<ArrayOfObjStation>("getAllStationsXML", null);
         }
 
+        public async Task<ArrayOfObjStation> GetAllStationsWithTypeAsync(string stationType)
+        {
+            return await GetAsync<ArrayOfObjStation>("getAllStationsXML", new Dictionary<string, string> { { "StationType", stationType } });
+        }
+
         public async Task<ArrayOfObjStationData> GetStationDataByStationCodeAsync(string stationCode)
         {
             return await GetAsync<ArrayOfObjStationData>("getStationDataByCodeXML", new Dictionary<string, string> { { "StationCode", stationCode } });

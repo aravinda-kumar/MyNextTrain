@@ -56,10 +56,9 @@ namespace MyNextTrain.ViewModels
             try
             {
                 var stationData = await _irishRailApiService.GetStationDataByStationCodeAsync(SelectedStation.StationCode);
-                var nextTrain = stationData.Items.Where(m => m.Direction == Direction.ToString())
-                    .Where(m => DateTime.ParseExact(m.Expdepart, "HH:mm", CultureInfo.InvariantCulture) - DateTime.Now >= TimeSpan.FromMinutes(10))
-                    .OrderBy(m => DateTime.ParseExact(m.Expdepart, "HH:mm", CultureInfo.InvariantCulture).TimeOfDay)
-                    .FirstOrDefault();
+
+                var nextTrain = GetNextTrain(stationData);
+
                 if (nextTrain == null)
                 {
                     await _pageDialogService.DisplayAlertAsync("Sorry!",
@@ -100,7 +99,7 @@ namespace MyNextTrain.ViewModels
 
             try
             {
-                var stations = await _irishRailApiService.GetAllStationsAsync();
+                var stations = await _irishRailApiService.GetAllStationsWithTypeAsync("D");
 
                 Stations = new ObservableCollection<ArrayOfObjStationObjStation>(stations.Items.OrderBy(m => m.StationDesc).ToList());
                 if (Stations.Any())
@@ -117,6 +116,17 @@ namespace MyNextTrain.ViewModels
             }
 
             Processing = false;
+        }
+
+        private ArrayOfObjStationDataObjStationData GetNextTrain(ArrayOfObjStationData stationData)
+        {
+            var nextTrain = stationData.Items.Where(m => m.Direction == Direction.ToString())
+                   .Where(m => DateTime.ParseExact(m.Expdepart, "HH:mm", CultureInfo.InvariantCulture) - DateTime.Now >= TimeSpan.FromMinutes(10))
+                   .Where(m => DateTime.ParseExact(m.Expdepart, "HH:mm", CultureInfo.InvariantCulture) - DateTime.Now <= TimeSpan.FromMinutes(20))
+                   .OrderBy(m => DateTime.ParseExact(m.Expdepart, "HH:mm", CultureInfo.InvariantCulture).TimeOfDay)
+                   .FirstOrDefault();
+
+            return nextTrain;
         }
     }
 }
